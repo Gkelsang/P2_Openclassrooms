@@ -1,0 +1,149 @@
+body {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    font-family: sans-serif;
+}
+.Jaune {
+    background-color: #ffca28;
+    max-width: 34%;
+    min-width: 34%;
+    height: 100%;
+} 
+.Blanc {
+    background-color: white;
+    max-width: 66%;
+    min-width: 66%;
+    padding-left: 10%;
+}
+img {
+    background-size: contain;
+    border-radius: 50%;
+    max-width: 80%;
+    border: solid 5px #ffb300;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+h4 {
+    background-color: #263238;
+    color: #ffca28;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.Jaune p{
+    text-align: justify;
+    font-size: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 80%;
+}
+.prems { 
+    min-width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 5% 0% 5% 0%;
+}
+i {
+    margin-right: 12%;
+    padding-bottom: 10%;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 3em;
+    margin-top: 20%;
+}
+em {
+    color: #ffca28;
+    font-style: normal;
+}
+h2 {
+    font-size: 1.7em;
+    padding-bottom: 15%;
+}
+.under {
+    text-decoration: underline #ffca28;
+    color: black;
+    margin-right: 0%;
+}
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.bordure {
+    border-bottom: #ffca28 solid 2px;
+    width: 90%;   
+}
+span {
+    color: #ffca28;
+    margin-right: 5%;
+}
+.premcol {
+    width: 10%;
+    vertical-align: top;
+    padding-top: 5%;
+}
+.deuxcol {
+    width: 30%;
+    vertical-align: top;
+    padding-top: 5%;
+}
+.troicol {
+    width: 60%;
+    vertical-align: top;
+    padding-top: 1%;
+}
+h5 {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.quatre {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.recocol1 {
+    width: 50%;
+    min-width: 50%;
+    font-size: 0.8em;
+}
+.recocol2 {
+    width: 50%;
+    font-size: 0.8em;
+}
+@media all and (max-width: 375px) {
+    body {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+    .Jaune {
+        min-width: 100%;
+    }
+}
+@media all and (max-width: 1023px) {
+    .Jaune P {
+        padding-bottom: 140%;
+    }
+}
+@media all and (min-width: 1441px) {
+    body {
+        font-size: 2em;
+    }
+    .Jaune P {
+        padding-bottom: 120%;
+    }
+}
