@@ -124,7 +124,7 @@ h5 {
     width: 50%;
     font-size: 0.8em;
 }
-@media all and (max-width: 375px) {
+@media all and (max-width: 425px) {
     body {
         flex-direction: column;
         display: flex;
